@@ -1,47 +1,215 @@
+
 <!doctype html>
-<html lang="hi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="ज्ञान साथी हिंदी GK Quiz, Notes, शिक्षा और करियर"><title>ज्ञान साथी | सीखें और आगे बढ़ें</title>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="ज्ञान साथी हिंदी GK Quiz, Notes, शिक्षा और करियर">
+<title>ज्ञान साथी | सीखें और आगे बढ़ें</title>
 <style>
-:root{--blue:#0759e8;--navy:#09234b;--ink:#14284b;--muted:#617593;--line:#dfe9fb;--bg:#f7faff}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:80px}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,"Noto Sans Devanagari",sans-serif;line-height:1.6}a{text-decoration:none;color:inherit}button,input,textarea,select{font:inherit}.wrap{width:min(1120px,calc(100% - 28px));margin:auto}.top{background:var(--navy);color:#e8f1ff;padding:6px 0;font-size:12px}header{position:sticky;top:0;background:#ffffffed;backdrop-filter:blur(10px);border-bottom:1px solid var(--line);z-index:9}.nav{min-height:70px;display:flex;align-items:center;gap:14px}.brand{font-size:22px;font-weight:900;white-space:nowrap}.brand span{color:var(--blue)}.navlinks{display:flex;gap:15px;margin-left:auto;font-size:12px;font-weight:800}.btn{border:0;border-radius:12px;background:var(--blue);color:#fff;padding:11px 16px;font-weight:850;display:inline-block;cursor:pointer}.light{background:white;color:var(--blue);border:1px solid #a9c6ff}.menu{display:none}.hero{padding:38px 0;background:linear-gradient(120deg,#f1f7ff,#dff2ff 60%,#f5f3ff)}.heroGrid{display:grid;grid-template-columns:1fr 1fr;gap:25px;align-items:center}.pill{display:inline-block;background:#e0ebff;color:#124fc5;border-radius:99px;padding:6px 12px;font-size:11px;font-weight:900}.hero h1{font-size:clamp(38px,5vw,60px);line-height:1.12;margin:16px 0}.grad{color:#0759e8}.hero p{color:#526987}.art{min-height:290px;border-radius:28px;background:linear-gradient(145deg,#b6e5ff,#e0f2ff 50%,#a9d7ff);display:grid;place-items:center;position:relative;overflow:hidden}.books{width:74%;transform:rotate(-2deg)}.book{color:white;text-align:center;font-weight:900;padding:7px;margin:6px;border-radius:9px;border-left:7px solid #ffffff88}.book:nth-child(1){background:#0759e8}.book:nth-child(2){background:#ff7a22}.book:nth-child(3){background:#10a65d}.book:nth-child(4){background:#7048f5}.book:nth-child(5){background:#e83e55}.book:nth-child(6){background:#1555a8}.bulb{position:absolute;right:12%;top:8%;font-size:38px}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;padding:18px 0}.stat,.card,.job,.panel{background:white;border:1px solid var(--line);border-radius:16px;padding:16px}.stat b{display:block}.muted{font-size:12px;color:var(--muted)}section.content{padding:28px 0}.kicker{font-size:10px;letter-spacing:1.4px;color:var(--blue);font-weight:950}h2{font-size:clamp(24px,3vw,31px);margin:4px 0}.sub{color:var(--muted);font-size:13px}.cats,.cards,.jobs{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.cats{grid-template-columns:repeat(6,1fr)}.cat{text-align:center;padding:14px 7px;border:1px solid var(--line);border-radius:15px;background:#fff}.cat:nth-child(3n+1){background:#fff4df}.cat:nth-child(3n+2){background:#e6f7ff}.cat:nth-child(3n){background:#efffe4}.cat i{font-style:normal;font-size:28px}.cat b{display:block;font-size:12px}.band{background:linear-gradient(110deg,#09285d,#135bd5 72%,#654af2);border-radius:20px;color:white;padding:22px;display:flex;justify-content:space-between;align-items:center;gap:15px}.band p{margin:0;color:#dce8ff;font-size:13px}.band .btn{background:white;color:#10366e}.quiz{display:none;margin-top:13px}.quiz.show{display:block}.option{display:block;width:100%;text-align:left;padding:12px;border:1px solid var(--line);border-radius:10px;background:white;margin:8px 0;cursor:pointer}.notice{display:none;background:#e8fbf2;color:#08764f;padding:12px;border-radius:10px;font-size:13px}.notice.show{display:block}.quizTop,.quizBottom{display:flex;justify-content:space-between;gap:10px;align-items:center}.cover{font-size:40px;text-align:center;padding:15px;background:linear-gradient(135deg,#ffd98e,#fff0d0);border-radius:12px}.card h3,.job h3{font-size:15px;margin:8px 0}.card p,.job p{font-size:12px;color:var(--muted)}.job{padding:18px}.cta{padding:22px;border-radius:20px;background:linear-gradient(120deg,#e6f1ff,#f0eaff);display:flex;justify-content:space-between;align-items:center;gap:15px}footer{background:#071d40;color:#dce8ff;padding:30px 0 14px;margin-top:25px}.footgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.footlinks{display:grid;gap:7px;font-size:12px;color:#b5c6e5}.footTitle{font-weight:900;color:white}.copyright{border-top:1px solid #ffffff22;margin-top:20px;padding-top:12px;font-size:11px;color:#a6b9dc}.page{display:none;padding:28px 0;min-height:40vh}.page.active{display:block}.pageCard{max-width:800px;margin:auto;background:white;border:1px solid var(--line);border-radius:18px;padding:24px}.pageCard p,.pageCard li{font-size:14px;color:#536782}.field{display:grid;gap:5px;margin:10px 0}.field label{font-size:12px;font-weight:800}.field input,.field textarea,.field select{width:100%;padding:10px;border:1px solid var(--line);border-radius:10px}.field textarea{min-height:70px}.formGrid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.wide{grid-column:1/-1}.warning{padding:12px;background:#fff6df;border:1px solid #ffe0a0;border-radius:10px;color:#785000;font-size:12px;margin:12px 0}.adminPanel{display:none}.adminPanel.show{display:block}.adminItem{display:flex;justify-content:space-between;gap:10px;padding:12px;border:1px solid var(--line);border-radius:10px;margin:8px 0}.mini{background:white;border:1px solid var(--line);border-radius:8px;padding:7px;cursor:pointer}.hidden{display:none!important}
-@media(max-width:850px){.navlinks{gap:8px;font-size:11px}.cats{grid-template-columns:repeat(3,1fr)}.footgrid{grid-template-columns:repeat(2,1fr)}}@media(max-width:650px){.nav{min-height:64px}.menu{display:block;margin-left:auto;padding:8px;background:white;border:1px solid var(--line);border-radius:8px}.navlinks{display:none;position:absolute;top:64px;left:0;right:0;background:white;padding:15px;flex-direction:column;gap:12px}.navlinks.open{display:flex}.nav>.btn{display:none}.hero{padding:25px 0}.heroGrid{grid-template-columns:1fr}.hero h1{font-size:40px}.art{min-height:230px}.stats{grid-template-columns:1fr 1fr}.cats{grid-template-columns:1fr 1fr}.cards,.jobs{grid-template-columns:1fr}.band,.cta{align-items:flex-start;flex-direction:column}.footgrid{grid-template-columns:1fr 1fr}.formGrid{grid-template-columns:1fr}.wide{grid-column:auto}.adminItem{flex-direction:column}}
-</style></head><body>
+:root{--blue:#0759e8;--navy:#09234b;--ink:#14284b;--muted:#617593;--line:#dfe9fb;--bg:#f7faff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,"Noto Sans Devanagari",sans-serif;line-height:1.6}
+a{text-decoration:none;color:inherit}
+button,input,textarea,select{font:inherit}
+.wrap{width:min(1120px,calc(100% - 28px));margin:auto}
+.top{background:var(--navy);color:#e8f1ff;padding:6px 0;font-size:12px}
+header{position:sticky;top:0;background:#ffffffed;backdrop-filter:blur(10px);border-bottom:1px solid var(--line);z-index:9}
+.nav{min-height:70px;display:flex;align-items:center;gap:14px}
+.brand{font-size:22px;font-weight:900;white-space:nowrap}
+.brand span{color:var(--blue)}
+.navlinks{display:flex;gap:15px;margin-left:auto;font-size:12px;font-weight:800}
+.btn{border:0;border-radius:12px;background:var(--blue);color:#fff;padding:11px 16px;font-weight:850;display:inline-block;cursor:pointer}
+.light{background:white;color:var(--blue);border:1px solid #a9c6ff}
+.menu{display:none}
+.hero{padding:38px 0;background:linear-gradient(120deg,#f1f7ff,#dff2ff 60%,#f5f3ff)}
+.heroGrid{display:grid;grid-template-columns:1fr 1fr;gap:25px;align-items:center}
+.pill{display:inline-block;background:#e0ebff;color:#124fc5;border-radius:99px;padding:6px 12px;font-size:11px;font-weight:900}
+.hero h1{font-size:clamp(38px,5vw,60px);line-height:1.12;margin:16px 0}
+.grad{color:#0759e8}
+.hero p{color:#526987}
+.art{min-height:290px;border-radius:28px;background:linear-gradient(145deg,#b6e5ff,#e0f2ff 50%,#a9d7ff);display:grid;place-items:center;position:relative;overflow:hidden}
+.books{width:74%;transform:rotate(-2deg)}
+.book{color:white;text-align:center;font-weight:900;padding:7px;margin:6px;border-radius:9px;border-left:7px solid #ffffff88}
+.book:nth-child(1){background:#0759e8}.book:nth-child(2){background:#ff7a22}.book:nth-child(3){background:#10a65d}.book:nth-child(4){background:#7048f5}.book:nth-child(5){background:#e83e55}.book:nth-child(6){background:#1555a8}
+.bulb{position:absolute;right:12%;top:8%;font-size:38px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;padding:18px 0}
+.stat,.card,.job,.panel{background:white;border:1px solid var(--line);border-radius:16px;padding:16px}
+.stat b{display:block}.muted{font-size:12px;color:var(--muted)}
+section.content{padding:28px 0}
+.kicker{font-size:10px;letter-spacing:1.4px;color:var(--blue);font-weight:950}
+h2{font-size:clamp(24px,3vw,31px);margin:4px 0}
+.sub{color:var(--muted);font-size:13px}
+.cats,.cards,.jobs{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}
+.cats{grid-template-columns:repeat(6,1fr)}
+.cat{text-align:center;padding:14px 7px;border:1px solid var(--line);border-radius:15px;background:#fff}
+.cat:nth-child(3n+1){background:#fff4df}.cat:nth-child(3n+2){background:#e6f7ff}.cat:nth-child(3n){background:#efffe4}
+.cat i{font-style:normal;font-size:28px}.cat b{display:block;font-size:12px}
+.band{background:linear-gradient(110deg,#09285d,#135bd5 72%,#654af2);border-radius:20px;color:white;padding:22px;display:flex;justify-content:space-between;align-items:center;gap:15px}
+.band p{margin:0;color:#dce8ff;font-size:13px}.band .btn{background:white;color:#10366e}
+.quiz{display:none;margin-top:13px}.quiz.show{display:block}
+.option{display:block;width:100%;text-align:left;padding:12px;border:1px solid var(--line);border-radius:10px;background:white;margin:8px 0;cursor:pointer}
+.notice{display:none;background:#e8fbf2;color:#08764f;padding:12px;border-radius:10px;font-size:13px}
+.notice.show{display:block}
+.quizTop,.quizBottom{display:flex;justify-content:space-between;gap:10px;align-items:center}
+.cover{font-size:40px;text-align:center;padding:15px;background:linear-gradient(135deg,#ffd98e,#fff0d0);border-radius:12px}
+.card h3,.job h3{font-size:15px;margin:8px 0}.card p,.job p{font-size:12px;color:var(--muted)}
+.job{padding:18px}
+.cta{padding:22px;border-radius:20px;background:linear-gradient(120deg,#e6f1ff,#f0eaff);display:flex;justify-content:space-between;align-items:center;gap:15px}
+footer{background:#071d40;color:#dce8ff;padding:30px 0 14px;margin-top:25px}
+.footgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.footlinks{display:grid;gap:7px;font-size:12px;color:#b5c6e5}
+.footTitle{font-weight:900;color:white}
+.copyright{border-top:1px solid #ffffff22;margin-top:20px;padding-top:12px;font-size:11px;color:#a6b9dc}
+.page{display:none;padding:28px 0;min-height:40vh}.page.active{display:block}
+.pageCard{max-width:800px;margin:auto;background:white;border:1px solid var(--line);border-radius:18px;padding:24px}
+.pageCard p,.pageCard li{font-size:14px;color:#536782}
+.field{display:grid;gap:5px;margin:10px 0}
+.field label{font-size:12px;font-weight:800}
+.field input,.field textarea,.field select{width:100%;padding:10px;border:1px solid var(--line);border-radius:10px}
+.field textarea{min-height:70px}
+.formGrid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.wide{grid-column:1/-1}
+.warning{padding:12px;background:#fff6df;border:1px solid #ffe0a0;border-radius:10px;color:#785000;font-size:12px;margin:12px 0}
+.adminPanel{display:none}.adminPanel.show{display:block}
+.adminItem{display:flex;justify-content:space-between;gap:10px;padding:12px;border:1px solid var(--line);border-radius:10px;margin:8px 0}
+.mini{background:white;border:1px solid var(--line);border-radius:8px;padding:7px;cursor:pointer}
+.hidden{display:none!important}
+@media(max-width:850px){.navlinks{gap:8px;font-size:11px}.cats{grid-template-columns:repeat(3,1fr)}.footgrid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:650px){.nav{min-height:64px}.menu{display:block;margin-left:auto;padding:8px;background:white;border:1px solid var(--line);border-radius:8px}.navlinks{display:none;position:absolute;top:64px;left:0;right:0;background:white;padding:15px;flex-direction:column;gap:12px}.navlinks.open{display:flex}.nav>.btn{display:none}.hero{padding:25px 0}.heroGrid{grid-template-columns:1fr}.hero h1{font-size:40px}.art{min-height:230px}.stats{grid-template-columns:1fr 1fr}.cats{grid-template-columns:1fr 1fr}.cards,.jobs{grid-template-columns:1fr}.band,.cta{align-items:flex-start;flex-direction:column}.footgrid{grid-template-columns:1fr 1fr}.formGrid{grid-template-columns:1fr}.wide{grid-column:auto}.adminItem{flex-direction:column}}
+</style>
+</head>
+<body>
 <div class="top"><div class="wrap">● सीखिए • अभ्यास कीजिए • आगे बढ़िए <span style="float:right">हिंदी में आसान जानकारी</span></div></div>
-<header><div class="wrap nav"><a class="brand" href="#home">📘 ज्ञान <span>साथी</span></a><button class="menu" id="menu">☰ मेन्यू</button><nav class="navlinks" id="navlinks"><a href="#home">होम</a><a href="#quiz">GK Quiz</a><a href="#notes">GK Notes</a><a href="#education">शिक्षा</a><a href="#jobs">सरकारी नौकरी</a><a href="#admin">Admin</a></nav><a class="btn" href="#quiz">Quiz खेलें ↗</a></div></header>
+<header><div class="wrap nav">
+<a class="brand" href="#home">📘 ज्ञान <span>साथी</span></a>
+<button class="menu" id="menu">☰ मेन्यू</button>
+<nav class="navlinks" id="navlinks">
+<a href="#home">होम</a><a href="#quiz">GK Quiz</a><a href="#notes">GK Notes</a><a href="#education">शिक्षा</a><a href="#jobs">सरकारी नौकरी</a><a href="#admin">Admin</a>
+</nav>
+<a class="btn" href="#quiz">Quiz खेलें ↗</a>
+</div></header>
 <main id="main">
-<section class="hero" id="home"><div class="wrap heroGrid"><div><span class="pill">✦ LEARN · PLAY · GROW</span><h1>ज्ञान साथी<br><span class="grad">सीखो, समझो, आगे बढ़ो।</span></h1><p>हिंदी में सामान्य ज्ञान, GK Quiz, पढ़ाई और करियर से जुड़ी आसान जानकारी — सब एक ही जगह।</p><a class="btn" href="#quiz">🎯 GK Quiz खेलें →</a> <a class="btn light" href="#notes">📚 GK Notes</a><p class="muted">✓ सरल हिंदी　 ✓ मोबाइल फ्रेंडली　 ✓ नियमित अभ्यास</p></div><div class="art"><div class="bulb">💡</div><div class="books"><div class="book">सामान्य ज्ञान</div><div class="book">इतिहास</div><div class="book">भूगोल</div><div class="book">विज्ञान</div><div class="book">संविधान</div><div class="book">करियर</div></div></div></div></section>
-<div class="wrap stats"><div class="stat">❔ <b id="total">5 सवाल</b><span class="muted">अभ्यास के लिए</span></div><div class="stat">▶️ <b>GK Quiz</b><span class="muted">खुद को परखें</span></div><div class="stat">🏆 <b>स्कोर देखें</b><span class="muted">हर सवाल के बाद</span></div><div class="stat">🎯 <b>लक्ष्य तय करें</b><span class="muted">हर दिन सीखें</span></div></div>
-<section class="content" id="categories"><div class="wrap"><div class="kicker">EXPLORE TOPICS</div><h2>GK के प्रमुख विषय</h2><p class="sub">अपनी पसंद का विषय चुनें और सीखना शुरू करें।</p><div class="cats"><a class="cat" href="#quiz"><i>🏛️</i><b>भारत सामान्य ज्ञान</b></a><a class="cat" href="#notes"><i>🏰</i><b>इतिहास</b></a><a class="cat" href="#notes"><i>🌍</i><b>भूगोल</b></a><a class="cat" href="#quiz"><i>⚛️</i><b>विज्ञान</b></a><a class="cat" href="#notes"><i>📕</i><b>संविधान</b></a><a class="cat" href="#notes"><i>🇮🇳</i><b>छत्तीसगढ़ GK</b></a></div></div></section>
-<section class="content" id="quiz"><div class="wrap"><div class="kicker">PRACTICE EVERY DAY</div><h2>अपना GK चेक करें 🧠</h2><p class="sub">हर सवाल के बाद सही जवाब और व्याख्या मिलेगी।</p><div class="band"><div><h3>आज का GK चैलेंज</h3><p>शुरू करें और अपना स्कोर देखें।</p></div><button class="btn" id="start">क्विज़ शुरू करें →</button></div><div class="quiz panel" id="quizbox"><div class="quizTop"><b id="counter">सवाल 1/5</b><b id="score">स्कोर: 0</b></div><h3 id="qtext"></h3><div id="options"></div><p class="notice" id="explain"></p><div class="quizBottom"><span class="muted" id="msg">एक विकल्प चुनें।</span><button class="btn" id="next">अगला सवाल →</button></div></div></div></section>
-<section class="content" id="notes"><div class="wrap"><div class="kicker">GK NOTES</div><h2>महत्वपूर्ण GK Notes</h2><p class="sub">रिविज़न के लिए उपयोगी छोटे नोट्स।</p><div class="cards"><article class="card"><div class="cover">🇮🇳</div><h3>भारत के राष्ट्रीय प्रतीक</h3><p>राष्ट्रीय पशु बाघ, राष्ट्रीय पक्षी मोर और राष्ट्रीय जलीय जीव गंगा नदी डॉल्फिन है।</p></article><article class="card"><div class="cover">📜</div><h3>संविधान के जरूरी तथ्य</h3><p>संविधान 26 नवंबर 1949 को अंगीकृत हुआ और 26 जनवरी 1950 को लागू हुआ।</p></article><article class="card"><div class="cover">🪐</div><h3>सौरमंडल के तथ्य</h3><p>बृहस्पति सौरमंडल का सबसे बड़ा ग्रह है।</p></article></div></div></section>
-<section class="content" id="articles"><div class="wrap"><div class="kicker">READ & LEARN</div><h2>पढ़ाई और करियर गाइड</h2><div class="cards"><article class="card"><div class="cover">📚</div><h3>परीक्षा की तैयारी</h3><p>छोटे लक्ष्य बनाएँ, नियमित रिविज़न करें और मॉक टेस्ट से अभ्यास करें।</p></article><article class="card"><div class="cover">📝</div><h3>बेहतर नोट्स कैसे बनाएँ?</h3><p>मुख्य बिंदु, तारीखें और अपने शब्दों में छोटा सार लिखें।</p></article><article class="card"><div class="cover">🧭</div><h3>भर्ती नोटिफिकेशन कैसे पढ़ें?</h3><p>योग्यता, आयु सीमा, आवेदन तारीख और आधिकारिक वेबसाइट जाँचें।</p></article></div></div></section>
-<section class="content" id="education"><div class="wrap"><div class="kicker">EDUCATION</div><h2>शिक्षा और परीक्षा</h2><div class="jobs"><article class="job"><h3>📖 रिविज़न प्लान</h3><p>विषयवार समय तय करें और नियमित अंतराल पर दोहराएँ।</p></article><article class="job"><h3>🗓️ परीक्षा की तैयारी</h3><p>सिलेबस और आधिकारिक परीक्षा पैटर्न देखकर तैयारी करें।</p></article><article class="job"><h3>🧾 फॉर्म चेकलिस्ट</h3><p>नाम, जन्मतिथि, दस्तावेज़ और अंतिम तारीख जाँचें।</p></article></div></div></section>
-<section class="content" id="jobs"><div class="wrap"><div class="kicker">CAREER & OPPORTUNITIES</div><h2>सरकारी नौकरी गाइड</h2><div class="jobs"><article class="job"><h3>🏢 केंद्र सरकार</h3><p>योग्यता और चयन प्रक्रिया की जानकारी।</p><a href="https://www.ncs.gov.in/" target="_blank" rel="noopener">National Career Service ↗</a></article><article class="job"><h3>🏫 शिक्षा</h3><p>आधिकारिक नोटिफिकेशन से पात्रता जाँचें।</p><a href="https://www.education.gov.in/" target="_blank" rel="noopener">शिक्षा मंत्रालय ↗</a></article><article class="job"><h3>📋 आवेदन सहायता</h3><p>आवेदन से पहले सभी विवरण दोबारा जाँचें।</p></article></div></div></section>
+<section class="hero" id="home"><div class="wrap heroGrid"><div>
+<span class="pill">✦ LEARN · PLAY · GROW</span>
+<h1>ज्ञान साथी<br><span class="grad">सीखो, समझो, आगे बढ़ो।</span></h1>
+<p>हिंदी में सामान्य ज्ञान, GK Quiz, पढ़ाई और करियर से जुड़ी आसान जानकारी — सब एक ही जगह।</p>
+<a class="btn" href="#quiz">🎯 GK Quiz खेलें →</a> <a class="btn light" href="#notes">📚 GK Notes</a>
+<p class="muted">✓ सरल हिंदी　 ✓ मोबाइल फ्रेंडली　 ✓ नियमित अभ्यास</p>
+</div><div class="art"><div class="bulb">💡</div><div class="books">
+<div class="book">सामान्य ज्ञान</div><div class="book">इतिहास</div><div class="book">भूगोल</div><div class="book">विज्ञान</div><div class="book">संविधान</div><div class="book">करियर</div>
+</div></div></div></section>
+<div class="wrap stats">
+<div class="stat">❔ <b id="total">5 सवाल</b><span class="muted">अभ्यास के लिए</span></div>
+<div class="stat">▶️ <b>GK Quiz</b><span class="muted">खुद को परखें</span></div>
+<div class="stat">🏆 <b>स्कोर देखें</b><span class="muted">हर सवाल के बाद</span></div>
+<div class="stat">🎯 <b>लक्ष्य तय करें</b><span class="muted">हर दिन सीखें</span></div>
+</div>
+<section class="content" id="categories"><div class="wrap">
+<div class="kicker">EXPLORE TOPICS</div><h2>GK के प्रमुख विषय</h2><p class="sub">अपनी पसंद का विषय चुनें और सीखना शुरू करें।</p>
+<div class="cats">
+<a class="cat" href="#quiz"><i>🏛️</i><b>भारत सामान्य ज्ञान</b></a><a class="cat" href="#notes"><i>🏰</i><b>इतिहास</b></a><a class="cat" href="#notes"><i>🌍</i><b>भूगोल</b></a><a class="cat" href="#quiz"><i>⚛️</i><b>विज्ञान</b></a><a class="cat" href="#notes"><i>📕</i><b>संविधान</b></a><a class="cat" href="#notes"><i>🇮🇳</i><b>छत्तीसगढ़ GK</b></a>
+</div></div></section>
+<section class="content" id="quiz"><div class="wrap">
+<div class="kicker">PRACTICE EVERY DAY</div><h2>अपना GK चेक करें 🧠</h2><p class="sub">हर सवाल के बाद सही जवाब और व्याख्या मिलेगी।</p>
+<div class="band"><div><h3>आज का GK चैलेंज</h3><p>शुरू करें और अपना स्कोर देखें।</p></div><button class="btn" id="start">क्विज़ शुरू करें →</button></div>
+<div class="quiz panel" id="quizbox"><div class="quizTop"><b id="counter">सवाल 1/5</b><b id="score">स्कोर: 0</b></div><h3 id="qtext"></h3><div id="options"></div><p class="notice" id="explain"></p><div class="quizBottom"><span class="muted" id="msg">एक विकल्प चुनें।</span><button class="btn" id="next">अगला सवाल →</button></div></div>
+</div></section>
+<section class="content" id="notes"><div class="wrap">
+<div class="kicker">GK NOTES</div><h2>महत्वपूर्ण GK Notes</h2><p class="sub">रिविज़न के लिए उपयोगी छोटे नोट्स।</p>
+<div class="cards">
+<article class="card"><div class="cover">🇮🇳</div><h3>भारत के राष्ट्रीय प्रतीक</h3><p>राष्ट्रीय पशु बाघ, राष्ट्रीय पक्षी मोर और राष्ट्रीय जलीय जीव गंगा नदी डॉल्फिन है।</p></article>
+<article class="card"><div class="cover">📜</div><h3>संविधान के जरूरी तथ्य</h3><p>भारत का संविधान 26 नवंबर 1949 को अंगीकृत हुआ और 26 जनवरी 1950 को लागू हुआ।</p></article>
+<article class="card"><div class="cover">🌍</div><h3>सौरमंडल</h3><p>सौरमंडल का सबसे बड़ा ग्रह बृहस्पति है। पृथ्वी सूर्य से तीसरा ग्रह है।</p></article>
+</div></div></section>
+<section class="content" id="education"><div class="wrap">
+<div class="kicker">EDUCATION</div><h2>शिक्षा से जुड़ी जानकारी</h2><p class="sub">पढ़ाई और तैयारी को व्यवस्थित बनाने के लिए सुझाव।</p>
+<div class="cards">
+<article class="card"><div class="cover">📚</div><h3>पढ़ाई की योजना</h3><p>रोज़ छोटे लक्ष्य बनाएँ, विषयों का रिविज़न करें और अभ्यास सवाल हल करें।</p></article>
+<article class="card"><div class="cover">✍️</div><h3>परीक्षा की तैयारी</h3><p>सिलेबस और आधिकारिक नोटिस पढ़ें। पुराने प्रश्नपत्रों से अभ्यास करें।</p></article>
+<article class="card"><div class="cover">🎯</div><h3>समय प्रबंधन</h3><p>पढ़ाई के समय छोटे ब्रेक रखें और रोज़ अपनी प्रगति देखें।</p></article>
+</div></div></section>
+<section class="content" id="jobs"><div class="wrap">
+<div class="kicker">CAREER & JOBS</div><h2>सरकारी नौकरी और करियर</h2><p class="sub">भर्ती से जुड़ी जानकारी हमेशा आधिकारिक स्रोत से जाँचें।</p>
+<div class="jobs">
+<article class="job"><h3>🏛️ सरकारी भर्ती</h3><p>आवेदन की अंतिम तारीख, पात्रता और शुल्क आधिकारिक नोटिस में देखें।</p><a href="https://www.upsc.gov.in/" target="_blank" rel="noopener">UPSC वेबसाइट ↗</a></article>
+<article class="job"><h3>📝 परीक्षा अपडेट</h3><p>परीक्षा और आवेदन संबंधी जानकारी के लिए संबंधित संस्था की वेबसाइट देखें।</p><a href="https://ssc.gov.in/" target="_blank" rel="noopener">SSC वेबसाइट ↗</a></article>
+<article class="job"><h3>📋 आवेदन सहायता</h3><p>आवेदन से पहले सभी विवरण दोबारा जाँचें।</p></article>
+</div></div></section>
 <section class="content"><div class="wrap cta"><div><div class="kicker">ABOUT GYAAN SAATHI</div><h2>सीखने का सफ़र यहीं से शुरू करें।</h2><p class="sub">ज्ञान साथी हिंदी में GK, शिक्षा और करियर की जानकारी सरल भाषा में साझा करता है।</p></div><a class="btn" href="#contactPage">हमसे संपर्क करें →</a></div></section>
 </main>
 <section class="page" id="aboutPage"><div class="wrap pageCard"><div class="kicker">ABOUT US</div><h2>हमारे बारे में</h2><p>ज्ञान साथी हिंदी में सामान्य ज्ञान, GK Quiz, शिक्षा और करियर से जुड़ी जानकारी को सरल रूप में प्रस्तुत करने के लिए बनाया गया है। हमारा उद्देश्य सीखने को आसान और उपयोगी बनाना है। भर्ती या सरकारी योजनाओं की जानकारी के लिए संबंधित आधिकारिक वेबसाइट जाँचें।</p><a class="btn" href="#home">होम पर जाएँ</a></div></section>
 <section class="page" id="contactPage"><div class="wrap pageCard"><div class="kicker">CONTACT US</div><h2>संपर्क करें</h2><p>सुझाव या वेबसाइट से जुड़ा सवाल भेजने के लिए ईमेल करें।</p><p>ईमेल: <a style="color:#0759e8;font-weight:bold" href="mailto:Khitikantnetam280@gmail.com">Khitikantnetam280@gmail.com</a></p><a class="btn" href="mailto:Khitikantnetam280@gmail.com?subject=Gyaan%20Saathi%20Website">ईमेल लिखें →</a></div></section>
 <section class="page" id="privacyPage"><div class="wrap pageCard"><div class="kicker">PRIVACY POLICY</div><h2>प्राइवेसी पॉलिसी</h2><p>ज्ञान साथी आपकी गोपनीयता का सम्मान करता है। यह डेमो वेबसाइट सामान्य जानकारी और शैक्षिक अभ्यास प्रदान करती है।</p><ul><li>क्विज़ स्कोर सर्वर पर नहीं भेजे जाते।</li><li>ईमेल लिंक से आपका ईमेल ऐप खुलता है; संदेश आप स्वयं भेजते हैं।</li><li>यदि भविष्य में विज्ञापन या एनालिटिक्स जोड़े जाएँ, तो इस नीति को अपडेट करना होगा।</li></ul><p>सवाल के लिए <a href="mailto:Khitikantnetam280@gmail.com">ईमेल करें</a>।</p><a class="btn" href="#home">होम पर जाएँ</a></div></section>
-<section class="page" id="admin"><div class="wrap" style="max-width:900px"><div class="panel" id="loginPanel"><div class="kicker">ADMIN AREA</div><h2>🔐 Admin Login</h2><div class="warning">ध्यान दें: यह शुरुआती डेमो है। सवाल केवल इसी ब्राउज़र में सेव होंगे, सभी विज़िटर्स के लिए नहीं। सुरक्षित साझा Admin के लिए backend/database चाहिए।</div><div class="field"><label>डेमो पासवर्ड</label><input id="password" type="password" placeholder="पासवर्ड डालें"></div><button class="btn" id="login">लॉगिन करें</button><p id="loginMsg" class="muted"></p><p class="muted">टेस्ट पासवर्ड: <b>Gyaan@123</b> — लाइव वेबसाइट के लिए सुरक्षित पासवर्ड नहीं है।</p></div><div class="panel adminPanel" id="adminPanel"><div class="quizTop"><h2>सवाल मैनेज करें</h2><button class="mini" id="logout">लॉगआउट</button></div><div class="warning">बदलाव इसी ब्राउज़र में सेव होंगे। ऑनलाइन सभी यूज़र्स के लिए अपडेट करने हेतु database/backend जोड़ना होगा।</div><form id="form"><input type="hidden" id="editIndex" value="-1"><div class="field"><label>सवाल</label><textarea id="question" required></textarea></div><div class="formGrid"><div class="field"><label>विकल्प A</label><input id="o0" required></div><div class="field"><label>विकल्प B</label><input id="o1" required></div><div class="field"><label>विकल्प C</label><input id="o2" required></div><div class="field"><label>विकल्प D</label><input id="o3" required></div><div class="field"><label>सही जवाब</label><select id="correct"><option value="0">A</option><option value="1">B</option><option value="2">C</option><option value="3">D</option></select></div><div class="field"><label>कैटेगरी</label><input id="category" value="सामान्य ज्ञान"></div><div class="field wide"><label>व्याख्या</label><textarea id="explanation"></textarea></div></div><button class="btn" type="submit" id="save">सवाल सेव करें</button> <button class="mini" type="button" id="reset">रीसेट</button><div id="adminList"></div></form></div></div></section>
-<footer><div class="wrap"><div class="footgrid"><div><div class="footTitle">📘 ज्ञान साथी</div><p class="muted" style="color:#b5c6e5">हिंदी में सीखने, अभ्यास करने और ज्ञान बढ़ाने का साथी।</p></div><div><div class="footTitle">महत्वपूर्ण लिंक</div><div class="footlinks"><a href="#quiz">GK Quiz</a><a href="#notes">GK Notes</a><a href="#education">शिक्षा</a><a href="#jobs">सरकारी नौकरी</a></div></div><div><div class="footTitle">हमारे बारे में</div><div class="footlinks"><a href="#aboutPage">About Us</a><a href="#contactPage">Contact Us</a><a href="#privacyPage">Privacy Policy</a></div></div><div><div class="footTitle">संपर्क करें</div><div class="footlinks"><a href="mailto:Khitikantnetam280@gmail.com">Khitikantnetam280@gmail.com</a><a href="#admin">🔒 Admin Login</a><span>Raipur, Chhattisgarh</span></div></div></div><div class="copyright">© <span id="year"></span> ज्ञान साथी. सर्वाधिकार सुरक्षित।</div></div></footer>
+<section class="page" id="admin"><div class="wrap" style="max-width:900px">
+<div class="panel" id="loginPanel"><div class="kicker">ADMIN AREA</div><h2>🔐 Admin Login</h2>
+<div class="warning">यह शुरुआती डेमो है। सवाल केवल इसी ब्राउज़र में सेव होंगे, सभी विज़िटर्स के लिए नहीं। सुरक्षित साझा Admin के लिए backend/database चाहिए।</div>
+<div class="field"><label>डेमो पासवर्ड</label><input id="password" type="password" placeholder="पासवर्ड डालें"></div>
+<button class="btn" id="login">लॉगिन करें</button><p id="loginMsg" class="muted"></p>
+<p class="muted">टेस्ट पासवर्ड: <b>Gyaan@123</b> — लाइव वेबसाइट के लिए सुरक्षित पासवर्ड नहीं है।</p></div>
+<div class="panel adminPanel" id="adminPanel"><div class="quizTop"><h2>सवाल मैनेज करें</h2><button class="mini" id="logout">लॉगआउट</button></div>
+<div class="warning">बदलाव इसी ब्राउज़र में सेव होंगे। ऑनलाइन सभी यूज़र्स के लिए अपडेट करने हेतु database/backend जोड़ना होगा।</div>
+<form id="form"><input type="hidden" id="editIndex" value="-1">
+<div class="field"><label>सवाल</label><textarea id="question" required></textarea></div>
+<div class="formGrid">
+<div class="field"><label>विकल्प A</label><input id="o0" required></div><div class="field"><label>विकल्प B</label><input id="o1" required></div><div class="field"><label>विकल्प C</label><input id="o2" required></div><div class="field"><label>विकल्प D</label><input id="o3" required></div>
+<div class="field"><label>सही जवाब</label><select id="correct"><option value="0">A</option><option value="1">B</option><option value="2">C</option><option value="3">D</option></select></div>
+<div class="field"><label>कैटेगरी</label><input id="category" value="सामान्य ज्ञान"></div><div class="field wide"><label>व्याख्या</label><textarea id="explanation"></textarea></div>
+</div><button class="btn" type="submit" id="save">सवाल सेव करें</button> <button class="mini" type="button" id="reset">रीसेट</button><div id="adminList"></div></form></div></div></section>
+<footer><div class="wrap"><div class="footgrid">
+<div><div class="footTitle">📘 ज्ञान साथी</div><p class="muted" style="color:#b5c6e5">हिंदी में सीखने, अभ्यास करने और ज्ञान बढ़ाने का साथी।</p></div>
+<div><div class="footTitle">महत्वपूर्ण लिंक</div><div class="footlinks"><a href="#quiz">GK Quiz</a><a href="#notes">GK Notes</a><a href="#education">शिक्षा</a><a href="#jobs">सरकारी नौकरी</a></div></div>
+<div><div class="footTitle">हमारे बारे में</div><div class="footlinks"><a href="#aboutPage">About Us</a><a href="#contactPage">Contact Us</a><a href="#privacyPage">Privacy Policy</a></div></div>
+<div><div class="footTitle">संपर्क करें</div><div class="footlinks"><a href="mailto:Khitikantnetam280@gmail.com">Khitikantnetam280@gmail.com</a><a href="#admin">🔒 Admin Login</a><span>Raipur, Chhattisgarh</span></div></div>
+</div><div class="copyright">© <span id="year"></span> ज्ञान साथी. सर्वाधिकार सुरक्षित।</div></div></footer>
 <script>
 const defaults=[
 {q:"भारत का राष्ट्रीय जलीय जीव कौन-सा है?",o:["समुद्री कछुआ","गंगा नदी डॉल्फिन","नीली व्हेल","मगरमच्छ"],a:1,c:"भारत सामान्य ज्ञान",e:"गंगा नदी डॉल्फिन भारत का राष्ट्रीय जलीय जीव है।"},
 {q:"भारत का संविधान कब लागू हुआ?",o:["15 अगस्त 1947","26 जनवरी 1950","26 नवंबर 1949","2 अक्टूबर 1950"],a:1,c:"संविधान",e:"संविधान 26 जनवरी 1950 को लागू हुआ; 26 नवंबर 1949 को अंगीकृत हुआ था।"},
 {q:"सौरमंडल का सबसे बड़ा ग्रह कौन-सा है?",o:["पृथ्वी","मंगल","बृहस्पति","शुक्र"],a:2,c:"विज्ञान",e:"बृहस्पति सौरमंडल का सबसे बड़ा ग्रह है।"},
 {q:"भारत की राजधानी कौन-सी है?",o:["मुंबई","नई दिल्ली","कोलकाता","चेन्नई"],a:1,c:"भारत सामान्य ज्ञान",e:"भारत की राजधानी नई दिल्ली है।"},
-{q:"पौधे प्रकाश संश्लेषण के लिए कौन-सी गैस लेते हैं?",o:["ऑक्सीजन","नाइट्रोजन","कार्बन डाइऑक्साइड","हाइड्रोजन"],a:2,c:"विज्ञान",e:"प्रकाश संश्लेषण में पौधे कार्बन डाइऑक्साइड और पानी से भोजन बनाते हैं।"}];
+{q:"पौधे प्रकाश संश्लेषण के लिए कौन-सी गैस लेते हैं?",o:["ऑक्सीजन","नाइट्रोजन","कार्बन डाइऑक्साइड","हाइड्रोजन"],a:2,c:"विज्ञान",e:"प्रकाश संश्लेषण में पौधे कार्बन डाइऑक्साइड और पानी से भोजन बनाते हैं।"}
+];
 const KEY="gyaan_saathi_questions_v1", $=id=>document.getElementById(id);
 function load(){try{let d=JSON.parse(localStorage.getItem(KEY));return Array.isArray(d)?d:defaults.map(q=>({...q,o:[...q.o]}))}catch(e){return defaults.map(q=>({...q,o:[...q.o]}))}}
-let qs=load(),idx=0,points=0,answered=false;$("year").textContent=new Date().getFullYear();
-$("menu").onclick=()=>$("navlinks").classList.toggle("open");$("navlinks").querySelectorAll("a").forEach(a=>a.onclick=()=>$("navlinks").classList.remove("open"));
+let qs=load(),idx=0,points=0,answered=false;
+$("year").textContent=new Date().getFullYear();
+$("menu").onclick=()=>$("navlinks").classList.toggle("open");
+$("navlinks").querySelectorAll("a").forEach(a=>a.onclick=()=>$("navlinks").classList.remove("open"));
 function saveData(){localStorage.setItem(KEY,JSON.stringify(qs));$("total").textContent=qs.length+" सवाल"}
-function draw(){answered=false;$("explain").classList.remove("show");$("explain").textContent="";if(idx>=qs.length){$("qtext").textContent=`क्विज़ पूरा! स्कोर ${points}/${qs.length}`;$("counter").textContent="अभ्यास पूरा";$("options").innerHTML="";$("explain").textContent=points>=Math.ceil(qs.length*.7)?"बहुत बढ़िया! अभ्यास जारी रखें।":"अच्छी कोशिश! सही जवाब दोबारा पढ़ें।";$("explain").classList.add("show");$("next").textContent="फिर से खेलें ↻";return}let q=qs[idx];$("counter").textContent=`सवाल ${idx+1}/${qs.length}`;$("score").textContent="स्कोर: "+points;$("qtext").textContent=q.q;$("options").innerHTML="";q.o.forEach((v,i)=>{let b=document.createElement("button");b.className="option";b.textContent="ABCD"[i]+". "+v;b.onclick=()=>answer(i);$("options").append(b)});$("next").textContent="अगला सवाल →"}
-function answer(i){if(answered)return;answered=true;let q=qs[idx];if(i===Number(q.a))points++;[...$("options").children].forEach((b,j)=>{b.disabled=true;if(j===Number(q.a)){b.style.background="#e8fbf2";b.style.borderColor="#73d8ac"}else if(j===i){b.style.background="#fff0f2";b.style.borderColor="#ffb8c3"}});$("explain").textContent=(i===Number(q.a)?"सही जवाब! ":"सही उत्तर: "+q.o[Number(q.a)]+". ")+(q.e||"");$("explain").classList.add("show");$("score").textContent="स्कोर: "+points}
-$("start").onclick=()=>{qs=load();idx=0;points=0;$("quizbox").classList.add("show");draw();$("quizbox").scrollIntoView({behavior:"smooth"})};$("next").onclick=()=>{if(idx>=qs.length){idx=0;points=0;draw();return}if(!answered){$("msg").textContent="पहले एक विकल्प चुनें।";return}idx++;draw()};
-const pages=["aboutPage","contactPage","privacyPage","admin"];function route(){let h=location.hash.slice(1),p=pages.includes(h);document.querySelectorAll(".page").forEach(x=>x.classList.toggle("active",x.id===h));$("main").classList.toggle("hidden",p)}window.addEventListener("hashchange",route);route();
+function draw(){
+answered=false;$("explain").classList.remove("show");$("explain").textContent="";
+if(idx>=qs.length){
+$("qtext").textContent=`क्विज़ पूरा! स्कोर ${points}/${qs.length}`;$("counter").textContent="अभ्यास पूरा";$("options").innerHTML="";
+$("explain").textContent=points>=Math.ceil(qs.length*.7)?"बहुत बढ़िया! अभ्यास जारी रखें।":"अच्छी कोशिश! सही जवाब दोबारा पढ़ें।";
+$("explain").classList.add("show");$("next").textContent="फिर से खेलें ↻";return}
+let q=qs[idx];$("counter").textContent=`सवाल ${idx+1}/${qs.length}`;$("score").textContent="स्कोर: "+points;$("qtext").textContent=q.q;$("options").innerHTML="";
+q.o.forEach((v,i)=>{let b=document.createElement("button");b.className="option";b.textContent="ABCD"[i]+". "+v;b.onclick=()=>answer(i);$("options").append(b)});
+$("next").textContent="अगला सवाल →"}
+function answer(i){
+if(answered)return;answered=true;let q=qs[idx];if(i===Number(q.a))points++;
+[...$("options").children].forEach((b,j)=>{b.disabled=true;if(j===Number(q.a)){b.style.background="#e8fbf2";b.style.borderColor="#73d8ac"}else if(j===i){b.style.background="#fff0f2";b.style.borderColor="#ffb8c3"}});
+$("explain").textContent=(i===Number(q.a)?"सही जवाब! ":"सही उत्तर: "+q.o[Number(q.a)]+". ")+(q.e||"");
+$("explain").classList.add("show");$("score").textContent="स्कोर: "+points}
+$("start").onclick=()=>{qs=load();idx=0;points=0;$("quizbox").classList.add("show");draw();$("quizbox").scrollIntoView({behavior:"smooth"})};
+$("next").onclick=()=>{if(idx>=qs.length){idx=0;points=0;draw();return}if(!answered){$("msg").textContent="पहले एक विकल्प चुनें।";return}idx++;draw()};
+const pages=["aboutPage","contactPage","privacyPage","admin"];
+function route(){let h=location.hash.slice(1),p=pages.includes(h);document.querySelectorAll(".page").forEach(x=>x.classList.toggle("active",x.id===h));$("main").classList.toggle("hidden",p)}
+window.addEventListener("hashchange",route);route();
 $("login").onclick=()=>{if($("password").value==="Gyaan@123"){$("loginPanel").classList.add("hidden");$("adminPanel").classList.add("show");renderAdmin()}else $("loginMsg").textContent="पासवर्ड सही नहीं है।"};
 $("logout").onclick=()=>{$("adminPanel").classList.remove("show");$("loginPanel").classList.remove("hidden");$("password").value=""};
-function renderAdmin(){qs=load();$("adminList").innerHTML="";qs.forEach((q,i)=>{let r=document.createElement("div");r.className="adminItem";let t=document.createElement("span");t.textContent=(i+1)+". "+q.q+" — "+q.c;let e=document.createElement("button");e.className="mini";e.textContent="✏️ एडिट";e.onclick=()=>edit(i);let d=document.createElement("button");d.className="mini";d.textContent="🗑️ हटाएँ";d.onclick=()=>{if(confirm("यह सवाल हटाना है?")){qs.splice(i,1);saveData();renderAdmin()}};let actions=document.createElement("span");actions.append(e,d);r.append(t,actions);$("adminList").append(r)})}
+function renderAdmin(){
+qs=load();$("adminList").innerHTML="";
+qs.forEach((q,i)=>{let r=document.createElement("div");r.className="adminItem";let t=document.createElement("span");t.textContent=(i+1)+". "+q.q+" — "+q.c;
+let e=document.createElement("button");e.className="mini";e.textContent="✏️ एडिट";e.onclick=()=>edit(i);
+let d=document.createElement("button");d.className="mini";d.textContent="🗑️ हटाएँ";d.onclick=()=>{if(confirm("यह सवाल हटाना है?")){qs.splice(i,1);saveData();renderAdmin()}};
+let actions=document.createElement("span");actions.append(e,d);r.append(t,actions);$("adminList").append(r)})}
 function edit(i){let q=qs[i];$("editIndex").value=i;$("question").value=q.q;q.o.forEach((v,j)=>$("o"+j).value=v);$("correct").value=q.a;$("category").value=q.c||"सामान्य ज्ञान";$("explanation").value=q.e||"";$("save").textContent="बदलाव सेव करें"}
-function reset(){ $("form").reset();$("editIndex").value="-1";$("category").value="सामान्य ज्ञान";$("save").textContent="सवाल सेव करें"}$("reset").onclick=reset;
-$("form").onsubmit=e=>{e.preventDefault();let q={q:$("question").value.trim(),o:[0,1,2,3].map(i=>$("o"+i).value.trim()),a:Number($("correct").value),c:$("category").value.trim()||"सामान्य ज्ञान",e:$("explanation").value.trim()},n=Number($("editIndex").value);if(n>=0)qs[n]=q;else qs.push(q);saveData();renderAdmin();reset();alert("सवाल इस ब्राउज़र में सेव हो गया।")};saveData();
-</script></body></html>
+function reset(){$("form").reset();$("editIndex").value="-1";$("category").value="सामान्य ज्ञान";$("save").textContent="सवाल सेव करें"}
+$("reset").onclick=reset;
+$("form").onsubmit=e=>{e.preventDefault();let q={q:$("question").value.trim(),o:[0,1,2,3].map(i=>$("o"+i).value.trim()),a:Number($("correct").value),c:$("category").value.trim()||"सामान्य ज्ञान",e:$("explanation").value.trim()},n=Number($("editIndex").value);if(n>=0)qs[n]=q;else qs.push(q);saveData();renderAdmin();reset();alert("सवाल इस ब्राउज़र में सेव हो गया।")};
+saveData();
+</script>
+</body>
+</html>
